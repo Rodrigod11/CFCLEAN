@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acerca.css">
+    <link href="https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/116af611cbcd9e4bada60b4e700430c1?family=Avenir+Light" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference" rel="stylesheet"> 
+    <title>CFClean - Acerca de</title>
+</head>
+<body>
+
+
+    <header>
+        <img src="img/CFClean sin fondo.png" alt="Logo de CFClean" width="400" height="150">
+        <hr class="linea">
+        <ul class="menu">
+            <li><button class="inicio-link" onclick="redirectToHome()">Inicio</button></li>
+            <li><button class="inicio-link" onclick="redirectToAcerca()">Acerca de</button></li>
+            <li><button class="inicio-link" onclick="redirectToCotizacion()">Reciba su cotización</button></li>
+            <li>Funciones</a></li>
+            <li>Servicios</a></li>
+            <li>Términos de uso</a></li>
+            <li>Política de privacidad</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="bienvenida">¡Bienvenido a CFClean!</h1>
+            <div class="cuadro-container">
+                <div class="cuadro">
+                    <h2 class="a">Nuestra Historia</h2>
+
+                    <p class="c">Desde que se fundó CFClean, nos hemos destacado por ofrecer servicios de alta calidad, eficiencia excepcional y un gran profesionalismo. Estamos comprometidos a no solo cumplir con lo acordado, sino también a superar las expectativas de nuestros clientes y garantizar su plena satisfacción. Nuestro equipo está altamente calificado y capacitado para abordar cualquier tipo de trabajo, gestionando proyectos con la eficiencia que nuestros clientes merecen.</p>
+                    <img src="img/10.jpeg" alt="Nuestra Historia" style="border: 20px solid #fff; width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="cuadro">
+                    <h2 class="a">Nuestro Equipo</h2>
+                    <p class="c">Somos un equipo diverso y talentoso dedicado a proporcionar los mejores servicios a nuestros clientes. Conoce más sobre cada uno de nuestros miembros y su contribución a nuestro éxito.</p>
+                    <br>
+                    <img src="img/11.jpeg" alt="Nuestro Equipo" style="border: 20px solid #fff; width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                </div>
+            </div>
+            <div class="cuadro-container">
+                <div class="cuadro">
+                    <h2 class="a">Nuestra Misión</h2>
+                    <p class="c">En CFClean, nuestra misión es proporcionar servicios de limpieza excepcionales que cumplan con los más altos estándares de calidad y superen las expectativas de nuestros clientes. Nos esforzamos por ser líderes en nuestra industria y contribuir positivamente a nuestra comunidad.</p>
+                    <img src="img/12.jpg" alt="Nuestra Mision" style="border: 20px solid #fff; width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="service-banner">
+            <img src="img/14.webp" alt="Banner de Servicio">
+        </div>
+        <div class="service-rating">
+            <h1>CALIFIQUE NUESTROS SERVICIOS</h1>
+            <p class="small-text">¿Cómo lo hicimos?</p>
+            <form action="submit_review.php" method="POST">
+                <div class="form-row">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:  </label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:  </label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="telefono">Teléfono:  </label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="reseña">Escribe tu reseña aquí:</label>
+                    <textarea id="reseña" name="reseña"></textarea>
+                </div>
+                <div class="form-group">
+                    <p>¿Nos recomendarías a tus amigos?</p>
+                    <label><input type="radio" name="recomienda" value="si" required> Sí</label>
+                    <label><input type="radio" name="recomienda" value="no" required> No</label>
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">¿Algo más que quieras agregar?</label>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer style="background-color: #2A7C6F;">
+        <div class="container">
+            <img src="img/CFClean sin fondo.png" alt="Logo de CFClean" width="200" height="75">
+            <h2 style="color: #fff;font-family: 'HvDTrial Brandon Grotesque', sans-serif;">Conoce nuestras redes sociales: </h2>
+            <ul class="redes-sociales">
+                <li><button onclick="window.open('https://www.facebook.com/profile.php?id=61553759884032', '_blank')"><img src="img/facebooklogo.png" alt="Ícono de Facebook" width="50px" height="50px"></button></li>
+                <li><button onclick="window.open('https://twitter.com/cf_clean84119', '_blank')"><img src="img/xlogo.png" alt="Ícono de X" width="50px" height="50px"></button></li>
+                <li><button onclick="window.open('https://www.instagram.com/cfcleanpe/', '_blank')"><img src="img/instagramlogo.png" alt="Ícono de Instragram" width="50px" height="50px"></button></li>
+                <li><button onclick="window.open('https://www.tiktok.com/@cfcleanpe', '_blank')"><img src="img/tiktoklogo.png" alt="Ícono de TikTok" width="50px" height="50px"></button></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 por CFClean</p>
+    </footer>
+
+    <script src="scripts/Inicio-link.js"></script>
+    <script src="scripts/Acerca_De-link.js"></script>
+    <script src="scripts/cotizacion.js"></script>
+</body>
+</html>

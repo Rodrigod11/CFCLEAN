@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cotizacion.css">
+    <link href="https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/116af611cbcd9e4bada60b4e700430c1?family=Avenir+Light" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference" rel="stylesheet"> 
+    <title>Reciba una Cotización - CFClean</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/CFClean sin fondo.png" alt="Logo de CFClean" width="400" height="150">
+        <hr class="linea">
+
+        <ul class="menu">
+            <li><button class="inicio-link" onclick="redirectToHome()">Inicio</button></li>
+            <li><button class="inicio-link" onclick="redirectToAcerca()">Acerca de</button></li>
+            <li><button class="inicio-link" onclick="redirectToCotizacion()">Reciba su cotización</button></li>
+            <li>Funciones</li>
+            <li>Servicios</li>
+            <li>Términos de uso</li>
+            <li>Política de privacidad</li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="img/13.webp" alt="Banner">
+        </section>
+
+        <section class="cotizacion">
+            <h1>RECIBA UNA COTIZACIÓN</h1>
+            <p class="descripcion">Complete el formulario a continuación para recibir una cotización personalizada para nuestros servicios. Nos pondremos en contacto con usted a la brevedad.</p>
+            <form action="submit_cotizacion.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group ">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <p>&copy; 2024 por CFClean</p>
+</footer>
+
+
+    <script src="scripts/Inicio-link.js"></script>
+    <script src="scripts/Acerca_De-link.js"></script>
+    <script src="scripts/cotizacion.js"></script>
+
+</body>
+</html>
