@@ -1,0 +1,253 @@
+body {
+    font-family: 'HvDTrial Brandon Grotesque', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+header {
+    background-color: #f5f5f5;
+    color: #2A7C6F;
+    padding: 10px;
+    text-align: center;
+}
+
+.select-container {
+    margin-bottom: 20px;
+}
+
+.linea {
+    border-bottom: 1px solid #2A7C6F;
+    margin-top: 2%; 
+    margin-bottom: 0;
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-left: 290px;
+    margin-right: 290px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+}
+
+.inicio-link {
+    all: unset;
+    background-color: #f6f6f6;
+    color: #2A7C6F; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+}
+.inicio-link:hover {
+    color: #6ab04c;
+    cursor: pointer;
+}
+
+.menu li {
+    font-family: 'Glacial Indifference';
+    display: inline;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    font-family: 'Glacial Indifference';
+    max-width: 600px;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+input,
+textarea {
+    font-family: 'Glacial Indifference';
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #2A7C6F;
+    color: #fff;
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6ab04c;
+}
+
+.styled-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    appearance: none;
+    background: url('img/arrow.png') no-repeat right;
+    background-size: 20px auto;
+}
+
+.styled-select:focus {
+    border-color: #2A7C6F;
+    outline: none;
+    background-color: #fff;
+}
+
+.styled-select:hover {
+    border-color: #2A7C6F;
+    background-color: #f1f1f1;
+}
+
+.wc {
+    font-family: 'HvDTrial Brandon Grotesque', monospace;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 1px;
+    font-size: 3cm;
+    font-weight: 300;
+    text-align: center;
+    color: #2A7C6F;
+}
+
+.wc2 {
+    font-family: 'HvDTrial Brandon Grotesque', monospace;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: 1;
+    text-align: center;
+    color: #2A7C6F;
+}
+
+#slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    min-height: 50%;
+    min-width: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.slide {
+    flex: 0 0 100%; 
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a {     
+    font-family: 'HvDTrial Brandon Grotesque', monospace;
+    font-size: 350%;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.b {
+    font-family: 'Avenir Light', sans-serif;
+    font-size: 137%;
+    font-weight: 1;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+.c {
+    font-family: 'Avenir Light', sans-serif;
+    font-size: 100%;
+    font-weight: 1;
+    margin-top: 0.3em;
+    margin-bottom: 3%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.cuadro {
+    margin: -10px;
+    text-decoration: none; 
+    color: #2A7C6F; 
+    padding: 10px; 
+    display: inline-block;
+    flex: 1;
+    background-color: #2A7C6F;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.sponges {
+    background-image: url(img/1\ \(9\).jpeg);
+    background-position:  bottom center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    max-width: 100%;
+    height: auto;
+}
+
+.redes-sociales {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales button {
+    background-color: #f5f5f5;
+    color: #fff;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 100px;
+    margin: 0 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.gracias-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gracias-container h2 {
+    color: #2A7C6F;
+}
+
+.gracias-container p {
+    color: #333;
+}
